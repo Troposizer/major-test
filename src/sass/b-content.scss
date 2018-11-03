@@ -1,0 +1,26 @@
+.b-content {
+  background: #f5f5f5;
+  font-size: 0;
+  .margin {
+    margin-top: 15px;
+  }
+  .photo {
+    width: 100%;
+  }
+  .text {
+    margin-bottom: 22px;
+    padding: 0 63px;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+  @include media-breakpoint-up(xl) {
+    padding: 75px 0;
+    .margin {
+      margin-bottom: 16px;
+      margin-top: 0;
+    }
+    .text {
+      padding: 0;
+    }
+  }
+}

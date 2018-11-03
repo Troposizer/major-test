@@ -1,0 +1,30 @@
+{
+  "name": "major-test",
+  "version": "1.0.0",
+  "description": "MA test",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^4.0.0-beta.2",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Troposizer/major-test.git"
+  },
+  "author": "Moliavko Stepan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Troposizer/major-test/issues"
+  },
+  "homepage": "https://github.com/Troposizer/major-test#readme"
+}
